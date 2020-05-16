@@ -38,19 +38,19 @@ export class ParametersListComponent {
 
     if (this.result_score > 0 && this.result_score <= 25) {
       this.result_category = 'Siloed';
-      this.result_image = '../../assets/siloed.png';
+      this.result_image = 'assets/siloed.png';
     } else if (this.result_score > 25 && this.result_score <= 40) {
       this.result_category = 'Synchronized';
-      this.result_image = '../../assets/synchronised.png';
+      this.result_image = 'assets/synchronised.png';
     } else if (this.result_score > 40 && this.result_score <= 65) {
       this.result_category = 'Strategic';
-      this.result_image = '../../assets/strategic.png';
+      this.result_image = 'assets/strategic.png';
     } else if (this.result_score > 65 && this.result_score <= 80) {
       this.result_category = 'Integrated';
-      this.result_image = '../../assets/integrated.png';
+      this.result_image = 'assets/integrated.png';
     } else {
       this.result_category = 'Agile';
-      this.result_image = '../../assets/images/agile.png';
+      this.result_image = 'assets/images/agile.png';
     }
   }
 
