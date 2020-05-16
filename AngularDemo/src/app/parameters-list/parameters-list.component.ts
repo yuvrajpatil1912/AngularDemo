@@ -50,7 +50,7 @@ export class ParametersListComponent {
       this.result_image = 'assets/integrated.png';
     } else {
       this.result_category = 'Agile';
-      this.result_image = 'assets/images/agile.png';
+      this.result_image = 'assets/agile.png';
     }
   }
 
